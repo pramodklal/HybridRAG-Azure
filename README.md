@@ -483,7 +483,6 @@ CMD ["npm", "start"]
 - **[TECHNICAL_ARCHITECTURE.md](./TECHNICAL_ARCHITECTURE.md)** - Detailed architecture with Mermaid diagrams
 - **[AZURE_SETUP_GUIDE.md](./AZURE_SETUP_GUIDE.md)** - Step-by-step Azure resource setup
 - **[MULTI_INDEX_ARCHITECTURE.md](./MULTI_INDEX_ARCHITECTURE.md)** - Search index design patterns
-- **[TECHNICAL_INTERVIEW_QA.md](./TECHNICAL_INTERVIEW_QA.md)** - Technical deep-dive Q&A
 - **[ecommerce-app-azure/SETUP_GUIDE.md](./ecommerce-app-azure/SETUP_GUIDE.md)** - Application setup guide
 - **[docs/YouTube_Video_Guide.md](./docs/YouTube_Video_Guide.md)** - Video tutorial script
 
