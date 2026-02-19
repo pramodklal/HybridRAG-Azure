@@ -589,6 +589,6 @@ If you find this project useful, please consider giving it a ⭐ on GitHub!
 ---
 
 **Designed & Developed by Pramod Lal**  
-Copyright © CodeInsight
+Copyright © CodeInsights
 
 </div>
