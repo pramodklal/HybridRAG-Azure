@@ -570,7 +570,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 - **Issues**: [GitHub Issues](https://github.com/pramodklal/HybridRAG-Azure/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/pramodklal/HybridRAG-Azure/discussions)
-- **Email**: pramodklal@example.com
+- **Email**: pramodklal@gmail.com
 
 ---
 
