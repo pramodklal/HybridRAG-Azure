@@ -10,11 +10,11 @@ graph TB
     end
     
     subgraph "Application Layer - Next.js 16"
-        C --> D[API Route<br/>/api/chat]
+        C --> D["API Route<br/>/api/chat"]
         B --> E[Admin Panel UI]
-        E --> F[/api/admin/upload-pdf]
-        E --> G[/api/admin/upload-csv]
-        B --> H[Dashboard API<br/>/api/dashboard/stats]
+        E --> F["API: /api/admin/upload-pdf"]
+        E --> G["API: /api/admin/upload-csv"]
+        B --> H["Dashboard API<br/>/api/dashboard/stats"]
     end
     
     subgraph "Business Logic Layer"
@@ -134,26 +134,26 @@ graph LR
     end
     
     subgraph "API Routes"
-        B1[/api/chat/route.ts<br/>Main Chat Handler]
-        B2[/api/admin/upload-pdf/route.ts]
-        B3[/api/admin/upload-csv/route.ts]
-        B4[/api/dashboard/stats/route.ts]
-        B5[/api/products/route.ts]
-        B6[/api/orders/route.ts]
-        B7[/api/returns/route.ts]
+        B1["API: /api/chat/route.ts<br/>Main Chat Handler"]
+        B2["API: /api/admin/upload-pdf/route.ts"]
+        B3["API: /api/admin/upload-csv/route.ts"]
+        B4["API: /api/dashboard/stats/route.ts"]
+        B5["API: /api/products/route.ts"]
+        B6["API: /api/orders/route.ts"]
+        B7["API: /api/returns/route.ts"]
     end
     
     subgraph "Azure Client Libraries"
-        C1[lib/azure/openai.ts<br/>OpenAI Client Wrapper]
-        C2[lib/azure/search.ts<br/>Search Client Manager]
-        C3[lib/azure/storage.ts<br/>File Share Client]
-        C4[lib/azure/tables.ts<br/>Legacy Table Storage]
+        C1["lib/azure/openai.ts<br/>OpenAI Client Wrapper"]
+        C2["lib/azure/search.ts<br/>Search Client Manager"]
+        C3["lib/azure/storage.ts<br/>File Share Client"]
+        C4["lib/azure/tables.ts<br/>Legacy Table Storage"]
     end
     
     subgraph "Utility Functions"
-        D1[lib/utils/pdf-extraction.ts]
-        D2[lib/utils/chunking.ts]
-        D3[lib/utils.ts<br/>General Utilities]
+        D1["lib/utils/pdf-extraction.ts"]
+        D2["lib/utils/chunking.ts"]
+        D3["lib/utils.ts<br/>General Utilities"]
     end
     
     A2 --> B1
@@ -234,7 +234,7 @@ sequenceDiagram
 
 ```mermaid
 flowchart TD
-    A[Admin uploads PDF] --> B[Receive file in<br/>/api/admin/upload-pdf]
+    A[Admin uploads PDF] --> B["Receive file in<br/>/api/admin/upload-pdf"]
     B --> C{Valid PDF?}
     C -->|No| D[Return error 400]
     C -->|Yes| E[Extract text using<br/>pdf2json]
